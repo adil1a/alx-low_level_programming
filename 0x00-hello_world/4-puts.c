@@ -2,7 +2,6 @@
 
 /**
  * main - prints "Programming is like building a multilingual puzzle"
- * Description: using the main function
  * Return: Always 0
  */
 
