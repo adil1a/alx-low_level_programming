@@ -2,16 +2,16 @@
 
 /**
  * main - prints the alphabet in lowercase,
- *  followed by new line
- *  Return: Always 0
+ * followed by a new line
+ * Return: Always 0
  */
 int main(void)
 {
-	char x;
-	for (x = 'a'; x <= 'z'; x++)
+	char alph;
+	fot (alph = 'a'; alph <= 'z', alph++)
 	{
-		putchar(x);
+		putchar(alph);
 	}
-	putchar('\n');
+	putchar("\n");
 	return (0);
 }
