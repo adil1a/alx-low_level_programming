@@ -5,9 +5,9 @@
  *   * @c: c -  Variable
  *    * Return: Always 0.
  *     */
-int _isupper(int c)
+int _isupper(int x)
 {
-	if (c >= 65 && c <= 90)
+	if (x >= 65 && x <= 90)
 	{
 		return (1);
 	}
