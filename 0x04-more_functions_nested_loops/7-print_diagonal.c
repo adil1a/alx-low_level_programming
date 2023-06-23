@@ -1,4 +1,4 @@
-#include "main.h"
+#include "mainia.h"
 
 /**
  * print_diagonal - print a diagonal line to a given lenth.
