@@ -1,4 +1,4 @@
-#include "mainii.h"
+#include "main.h"
 
 /**
  * print_line - prints a line to a given lenght.
