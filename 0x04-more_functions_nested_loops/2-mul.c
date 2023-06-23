@@ -1,15 +1,12 @@
 #include "main.h"
 
 /**
- * _isupper - Check if a letter is upper
- * @x: The number to be checked
- * Return: 1 for upper letter or 0 for any else
+ * mul - Multiplies two integers
+ * @x: The first number to multiply
+ * @y: The second number to multiply with first number
+ * Return: The result of multiplication between x param and y param
  */
-int _isupper(int x)
+int mul(int x, int y)
 {
-	if (x >= 65 && x <= 90)
-	{
-		return (1);
-	}
-	return (0);
+	return (x * y);
 }
