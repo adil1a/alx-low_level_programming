@@ -4,7 +4,7 @@
  * puts_recursion - prints a string, followed by /n
  */
 
-void _puts_recursio(char *s)
+void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
@@ -12,5 +12,5 @@ void _puts_recursio(char *s)
 		return;
 	}
 	_putchar(*s);
-	_puts_recursio(s + 1);
+	_puts_recursion(s + 1);
 }
